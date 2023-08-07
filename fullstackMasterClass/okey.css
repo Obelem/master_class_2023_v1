@@ -1,0 +1,33 @@
+html, body {
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 25rem;
+    outline: 2px solid brown;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 8px;
+    column-gap: .5rem;
+}
+
+.screen {
+    height: 15rem;
+    width: inherit;
+    /* width: 8rem; */
+    border-radius: inherit;
+    background-color: grey;
+}
+
+h2 {
+    outline: 1px solid black;
+}
+
+.container > div {
+    outline: 1px solid red;
+}

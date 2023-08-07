@@ -1,0 +1,39 @@
+p {
+    color: goldenrod;
+}
+
+h1 {
+    font-family:monospace;
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: indianred;
+    font-size: 24px;
+    outline: 1px solid indianred;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: indianred;
+    color: white;
+}
+
+div {
+    font-size: 30px;
+}
+
+span {
+    font-style: italic;
+}
+
+li {
+    text-transform: capitalize;
+}
+
+ol li {
+    color: crimson;
+}
+
+ul li {
+    color: seagreen;
+}

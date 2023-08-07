@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(0, 0, 0, 0.836);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.box {
+    background-color: gainsboro;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+
+    border: 8px solid slateblue;
+
+    margin-top: 10rem;
+
+    outline: 3px solid crimson;
+
+    border-radius: 10px;
+}

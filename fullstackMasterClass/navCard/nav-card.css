@@ -1,0 +1,50 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*  */
+.ham-menu-btn {
+    font-size: 4rem;
+    cursor: pointer;
+    margin-left: .8rem;
+}
+
+.nav-card {
+    width: 20rem;
+    height: 100vh;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 2rem 0 0 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    transition: .3s ease-in-out;
+}
+
+.slide {
+    left: 0;
+    transition: .3s ease-in-out;
+}
+
+.nav-card a {
+    color: white;
+    text-decoration: none;
+    width: max-content;
+    padding: .5rem 1rem;
+    outline: 1px solid white;
+}
+
+.close-btn {
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    right: 10px;
+    cursor: pointer;
+}
